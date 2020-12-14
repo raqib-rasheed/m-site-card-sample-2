@@ -1,0 +1,83 @@
+:root{
+  --font-color:rgb(119, 118, 118);
+  --icon-color:rgba(14, 13, 13, 0.596);
+  --btn-color:rgb(68, 66, 66);
+  padding: 0;
+  margin: 0;
+}
+body{
+  box-sizing: border-box;
+  font-size: 60.5%;
+  font-family: 'Courier New', Courier, monospace;
+}
+.d-flex{
+  display: flex;
+  justify-content: center;
+
+}
+.m0-p0{
+  margin: 0;
+  padding: 0;
+}
+.mb-1{
+  margin-bottom: 1.5rem;
+}
+#main{
+  background-color: rgb(191, 194, 194);
+  padding: 2rem;
+  margin: 5rem;
+}
+.card{
+  color: var(--font-color);
+  font-size: 1.5rem;
+  background-color: #fff;
+  padding: 2rem;
+}
+.wf{
+  width: 100%;
+}
+.btns{
+  justify-content: space-between;
+}
+i{
+  color: var(--icon-color);
+}
+
+.img-container{
+  width: 7rem;
+  height:7rem;
+  border-radius: 50%;
+  background-image: url(./matthew-hamilton-s1YHaZhC--Y-unsplash.jpg);
+  background-size: 100% 100%;
+  border: 2px solid var(--btn-color);
+}
+.container,
+.count-container,
+.showcase,
+.choose-date{
+  flex-direction: column;
+  align-items: center;
+}
+.selectors{
+  font-size: 1rem;
+  width: 10rem;
+  justify-content: space-around;
+}
+.count{
+  font-size: 3rem;
+  margin-top: -2.3rem;
+}
+.date-container{
+  text-align: center;
+  margin-top: 1rem;
+  font-weight: 800;
+}
+.confirm-btn{
+  padding:1.5rem 2rem;
+}
+.btn{
+  color: #fff;
+  background-color: var(--btn-color);
+  padding: 1rem 4rem;
+  box-shadow: .5rem .5rem 1.5rem rgba(0, 0, 0, 0.733);
+}
